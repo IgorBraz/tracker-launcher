@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  post 'launcher/launch'
+  post 'launcher/launch', to: 'launcher#launch'
 end
